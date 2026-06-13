@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+
+button {
+  background: #00c6ff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  background: white;
+  color: black;
+  margin: 10px auto;
+  padding: 10px;
+  list-style: none;
+  border-radius: 8px;
+  width: 70%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.filter-buttons {
+  margin-top: 10px;
+}
+
+.filter-buttons button {
+  margin: 3px;
+}
